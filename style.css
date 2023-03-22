@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #1f2937;
+    height: 60px;
+
+}
+ 
+.nav-container, .body-container {
+ max-width: 70%;
+ margin: 0 auto;
+}
+.nav-container {
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.navlinks a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.showcase-section {
+    background-color: #1f2937;
+    padding: 100px 0;
+}
+
+.showcase {
+    display: flex;
+    gap: 20px;
+}
+
+.showcase-info  h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    
+}
+.showcase-info  p {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+.showcase-info button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 20px;
+    margin-top: 20px;
+}
+
+.showcase img {
+    width: 300px;
+    height: 200x;
+    border: 2px solid black;
+}
+
+.info h2 {
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: extra-bold;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 150px;
+    border: 1px solid black;
+}
+
+.testimonials {
+    background-color: #e5e7eb;
+    padding: 150px 0;
+}
+
+.testimonials p {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: white;
+    padding: 50px 100px;
+    margin: 100px 0;
+    border-radius: 5px;
+}
+
+.cta button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color:#e5e7eb;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
