@@ -59,7 +59,7 @@ header {
 .showcase {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -68,7 +68,7 @@ header {
     flex-direction: column;
     gap: 5px;
     align-self: center;
-    flex: 0 1 50%;
+    flex: 1 1 50%;
 }
 
 .showcase-info  h1 {
@@ -97,7 +97,7 @@ header {
 .showcase img {
     height: 200x;
     width: 400px;
-    flex: 0 0 50%;
+    flex: 1 0 50%;
 }
 
 .info h2 {
@@ -150,10 +150,6 @@ header {
     align-items: center;
 }
 
-.testimonials figcaption {
-    flex: 0 0 100px;
-}
-
 .testimonials blockquote {
     font-size: 36px;
     font-style: italic;
@@ -162,6 +158,7 @@ header {
 }
 
 .testimonials figcaption {
+    flex: 0 0 100px;
     margin-top: 10px;
     margin-left: 650px;
     font-weight: bold;
