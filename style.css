@@ -82,6 +82,7 @@ header {
     font-size: 18px;
 }
 
+
 .showcase-info button {
     background-color: #3882f6;
     color: white;
@@ -135,7 +136,7 @@ header {
 .card:hover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-
+    
 }
 
 .card-img img {
@@ -205,4 +206,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+button:hover {
+    background-color: #1b68e4;
+    cursor: pointer;
 }
